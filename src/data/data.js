@@ -24,6 +24,9 @@ const SpaceXCapsules = () => {
       }
     };
     fetchData();
+    return()=>{
+      
+    }
   }, []);
 
   const filteredCapsules = filterStatus !== 'All'
@@ -37,6 +40,7 @@ const SpaceXCapsules = () => {
   return (
     <div>
       <h1>SpaceX Capsules</h1>
+      <p>Select Status</p>
       <select value={filterStatus} onChange={handleStatusFilter} class="select1">
         <option value="All">All</option>
         <option value="retired">Retired</option>
