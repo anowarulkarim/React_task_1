@@ -1,0 +1,23 @@
+.table1{
+    width: auto;
+    margin: 10px;
+    border: 50px;
+    border-color: rgb(7, 24, 24);
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.select1{
+    background-color: rgb(86, 167, 196);
+    width: 150px;
+    height: 30px;
+}
+option{
+    text-size-adjust: 40px;
+}
+th{
+    background-color: antiquewhite;
+}
+td{
+    background-color: aquamarine;
+}
